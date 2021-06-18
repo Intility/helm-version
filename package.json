@@ -1,0 +1,32 @@
+{
+  "name": "@intility/helm-version",
+  "version": "1.0.0",
+  "description": "Automatically version helm charts with npm version.",
+  "bin": {
+    "helm-version": "index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/Intility/helm-version",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Intility/helm-version.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "keywords": [
+    "helm",
+    "npm",
+    "version"
+  ],
+  "author": "Intility",
+  "license": "MIT",
+  "dependencies": {
+    "read-pkg-up": "^8.0.0",
+    "yaml": "^2.0.0-6"
+  }
+}
