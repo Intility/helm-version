@@ -1,10 +1,12 @@
 <h1 align="center">
-  <img src="./.github/images/logo192.png" width="124px"/><br/>
+  <img src="./.github/images/logo192.png" width="124px" /><br />
   @intility/helm-version
 </h1>
 
 <p align="center">
-  A tool for setting a Helm charts <code>appVersion</code> based on the <code>package.json</code> <code>version</code> field. To be used with <code>npm version</code>.
+  A tool for setting a Helm charts <code>appVersion</code> based on the <code>package.json</code> <code>version</code> field.
+  <br />
+  To be used with <code>npm version</code>.
 </p>
 
 <p align="center">
