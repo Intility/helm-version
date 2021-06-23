@@ -20,4 +20,14 @@ Add a `version` script to your `package.json`
 }
 ```
 
-You can now call `npm version` as usual to version your app, and the `appVersion` field will be automatically updated and added to the git commit and tag!
+You can now call `npm version` as usual to version your app,
+and the `appVersion` field will be automatically updated and added to the git commit and tag!
+
+Alternatively, you can run it manually
+
+```shell
+helm-version <chart> <prefix>
+```
+
+Prefix is optional, and defaults to `v`.
+This is because `npm version` prefixes the git tag with `v`.
