@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  A tool for setting a Helm charts `appVersion` based on the `package.json` `version` field. To be used with `npm version`.
+  A tool for setting a Helm charts <code>appVersion</code> based on the <code>package.json</code> <code>version</code> field. To be used with <code>npm version</code>.
 </p>
 
 <p align="center">
