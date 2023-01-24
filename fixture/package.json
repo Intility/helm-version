@@ -1,0 +1,11 @@
+{
+  "name": "fixture",
+  "private": true,
+  "version": "0.5.0",
+  "scripts": {
+    "version": "helm-version chart"
+  },
+  "dependencies": {
+    "helm-version": "file:../"
+  }
+}
