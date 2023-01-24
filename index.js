@@ -11,6 +11,8 @@ if (process.argv.length > 2) {
 
   // get app versions and calculate diff
   const prevAppVersion = helmChart.get('appVersion');
+
+  // https://docs.npmjs.com/cli/v9/using-npm/scripts?v=true#packagejson-vars
   const newAppVersion = process.env.npm_package_version;
   const appVersionDiff = semver.diff(prevAppVersion, newAppVersion);
 
